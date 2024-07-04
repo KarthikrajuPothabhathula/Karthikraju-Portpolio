@@ -1,0 +1,113 @@
+*{
+  font-family: monospace;
+}
+body{
+  margin:0;
+  font-size: 15px;
+  background-color:#f0f8ff;
+}
+header{
+  height:100vh;
+  background-color: #2196f3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+a{
+  text-decoration: none;
+}
+section div p{
+  text-align: left;
+}
+ol li{
+  font-size: 20px;
+}
+form div{
+  text-align: 5px o;
+}
+h1{
+  color: #2196f3;
+  font-size: 50px;
+}
+header h1{
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+.button{
+  margin:15px;
+  height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: darkblue;
+
+}
+img{
+  height:200px;
+}
+main{
+  padding: 20px;
+}
+section{
+  height: 100vh;
+  border:1px solid grey;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.submit{
+  height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  background-color: #2196f3;
+}
+.submit:hover{
+  color: white;
+  background-color: #1178cd;
+}
+input{
+  border-radius: 5px;
+  border:1px solid lightgray;
+  height: 25px;
+
+}
+.fixedButton{
+  position: fixed;
+  bottom:10px;
+  right:10px;
+  height:70px;
+  width:70px;
+  border:none;
+  border-radius:50%;
+  cursor:pointer;
+  color:white;
+  background-color: #2196f3;
+}
+.clean{
+  height:500px;
+  width:500px;
+}
+footer{
+  height:124px;
+  background-color: black;
+  color: lightgray;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
